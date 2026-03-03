@@ -5,6 +5,8 @@ def add_note(note):
 def view_notes():
     with open("notes.txt", "r") as f:
         print(f.read())
+def delete_functionality():
+    return "delete_node"
 
 if __name__ == "__main__":
     while True:
